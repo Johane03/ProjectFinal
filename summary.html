@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSJ Form</title>
+    <link rel="stylesheet" href="stylesForm.css" />
+    <script src="index2.js" defer></script>
+  </head>
+  <body>
+    <section class="content">
+      <aside class="sidePanel"></aside>
+
+      <div>
+        <form id="form">
+          <legend>Summary:</legend>
+
+          <fieldset class="row">
+            <div id="summary">
+              <h2>Summary of Entered Information:</h2>
+              <hr color="#6a7fdb">
+              <br>
+              <div class="summaryText">
+                <p><strong>Full Name:</strong> <span id="name" class="summaryInfo"></span></p>
+                <br>
+                <p><strong>Email:</strong> <span id="email" class="summaryInfo"></span></p>
+                <br>
+                <p><strong>User ID:</strong> <span id="id" class="summaryInfo"></span></p>
+                <br />
+                <p><strong>Phone Number:</strong> <span id="phone" class="summaryInfo"></span></p>
+                <br />
+                <p><strong>Country of Residence:</strong> <span id="country" class="summaryInfo"></span></p>
+                <br />
+                <p><strong>State of Residence:</strong> <span id="state" class="summaryInfo"></span></p>
+                <br />
+                <p><strong>City of Residence:</strong> <span id="city" class="summaryInfo"></span></p>
+                <br />
+                <p><strong>Reference Code:</strong> <span id="refCode" class="summaryInfo"></span></p>
+                <br>
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="buttons">
+            <a href="" class="Reset" id="resetButton" style="color: transparent;">Reset All</a>
+            <a href="form.html" id="BackButton" class="Backbutton" type="submit"
+              ><div class="Backbutton-text">Back</div></a
+            >
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JSJ Form</title>
+        <link rel="stylesheet" href="stylesForm.css">
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <section class="content">
+            <aside class="sidePanel"></aside>
+
+            <div>
+                <form id="form">
+                    <legend>Basic Details:</legend>
+
+                    <fieldset class="row">
+                        
+                        <div class="column">
+                            <label for="First">First Name</label>
+                            <br>
+                            <input type="text" id="Firstname">
+                            <span id="validationIconFirstName"></span>
+                            <br>
+                       
+                            <label for="email">Email ID</label>
+                            <br>
+                            <input type="email" name="email" id="email">
+                            <span id="validationIconEmail"></span>
+                            <br>
+                            
+                            <label for="country">Country</label>
+                                <br>
+                            <select id="countrySel" size="1" >
+                                <option value="" selected="selected">Select Country</option>
+                            </select>
+                            <br>
+
+                            <label for="phone">Phone Number</label>
+                            <br>
+                            <input type="text" name="phone" id="phone">
+                            <span id="validationIconPhone"></span>
+                            <br>
+                        </div>
+
+                        <div class="column">
+                            <label for="lastNname">Last Name</label>
+                            <br>
+                            <input type="text" name="lastName" id="lastName">
+                            <span id="validationIconLastName"></span>
+                            <br>
+                        
+                            <label for="user">Your User ID</label>
+                            <br>
+                            <input type="text" name="user" id="user">
+                            <span id="validationIconUserID"></span>
+                            <br>
+
+                            <div class="row">
+                            <label for="state" class="column">State</label>
+                                <br>
+
+                                <label for="city" class="column">City</label>
+                                <br>
+                            </div>
+                            <div class="row">
+                            <select id="stateSel"
+                            class="column" size="1" >
+                                <option value="" selected="selected">Select State</option>
+                            </select>
+                            <br>
+                            <select id="citySel"
+                            class="column" size="1" >
+                                <option value="" selected="selected">Select City</option>
+                            </select>
+                            <br>
+                            </div>
+
+                            <label for="refcode">Reference Code</label>
+                            <br>
+                            <input type="text" name="refcode" id="refcode">
+                            <span id="validationIconRefCode"></span>
+                            <br>
+                        </div>
+                            
+                    </fieldset>
+
+                    <div class="buttons">
+                        <a href="" class="Reset" id="resetButton">Reset All</a>
+                        <a href="summary.html" id="continueButton" class="Continuebutton" type="submit"><div class="Continuebutton-text">Continue</div></a>    
+                    </div>
+                     
+                </form>
+            </div>
+        </section>
+
+        
+    </body>
+</html>
